@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="StatisticCell" id="52p-zz-sDZ" customClass="StatisticCell" customModule="YoungSportEvent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="52p-zz-sDZ" id="dn1-ap-WsU">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzz-hn-dej">
+                        <rect key="frame" x="20" y="9.5" width="40" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Bsk-5G-v3l"/>
+                            <constraint firstAttribute="width" constant="40" id="fcS-eF-YLW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                        <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" ambiguous="YES" text="Goals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qe-hN-bX3">
+                        <rect key="frame" x="70" y="9.5" width="274" height="25"/>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                        <color key="textColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8p-Sm-YTK">
+                        <rect key="frame" x="354" y="9.5" width="40" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="8Fi-f6-25K"/>
+                            <constraint firstAttribute="width" constant="40" id="eaH-7o-h4m"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                        <color key="textColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usm-pd-Tz2">
+                        <rect key="frame" x="20" y="37" width="374" height="2"/>
+                        <color key="backgroundColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="gaX-WP-G3K"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="usm-pd-Tz2" secondAttribute="trailing" constant="20" id="4na-Up-1cE"/>
+                    <constraint firstAttribute="trailing" secondItem="P8p-Sm-YTK" secondAttribute="trailing" constant="20" id="CjC-An-L6g"/>
+                    <constraint firstItem="2Qe-hN-bX3" firstAttribute="leading" secondItem="Jzz-hn-dej" secondAttribute="trailing" constant="10" id="HlG-lg-rzM"/>
+                    <constraint firstItem="Jzz-hn-dej" firstAttribute="leading" secondItem="dn1-ap-WsU" secondAttribute="leading" constant="20" id="Jam-kg-7pH"/>
+                    <constraint firstAttribute="bottom" secondItem="usm-pd-Tz2" secondAttribute="bottom" constant="10" id="La0-3l-9eT"/>
+                    <constraint firstItem="2Qe-hN-bX3" firstAttribute="top" secondItem="Jzz-hn-dej" secondAttribute="top" id="WOE-n2-XgH"/>
+                    <constraint firstItem="Jzz-hn-dej" firstAttribute="centerY" secondItem="dn1-ap-WsU" secondAttribute="centerY" id="WRy-CT-qiC"/>
+                    <constraint firstItem="usm-pd-Tz2" firstAttribute="top" secondItem="2Qe-hN-bX3" secondAttribute="bottom" constant="10" id="Wf5-7R-zWb"/>
+                    <constraint firstItem="P8p-Sm-YTK" firstAttribute="centerY" secondItem="Jzz-hn-dej" secondAttribute="centerY" id="WmY-Dh-qBN"/>
+                    <constraint firstItem="2Qe-hN-bX3" firstAttribute="bottom" secondItem="Jzz-hn-dej" secondAttribute="bottom" id="g73-pH-6q0"/>
+                    <constraint firstItem="usm-pd-Tz2" firstAttribute="leading" secondItem="dn1-ap-WsU" secondAttribute="leading" constant="20" id="kVZ-Hb-BQC"/>
+                    <constraint firstItem="P8p-Sm-YTK" firstAttribute="leading" secondItem="2Qe-hN-bX3" secondAttribute="trailing" constant="10" id="kra-VP-GFg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblLine" destination="usm-pd-Tz2" id="vK8-Dk-DwS"/>
+                <outlet property="lblPointOne" destination="Jzz-hn-dej" id="z4z-wu-Tqg"/>
+                <outlet property="lblPointTwo" destination="P8p-Sm-YTK" id="zmf-ur-e5p"/>
+                <outlet property="lblTitle" destination="2Qe-hN-bX3" id="gRe-1v-fKY"/>
+            </connections>
+            <point key="canvasLocation" x="247.82608695652175" y="75.669642857142847"/>
+        </tableViewCell>
+    </objects>
+</document>
